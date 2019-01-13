@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Montserrat';
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 24%, rgba(0,212,255,1) 100%);
+}
+div{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 520px;
+    background-color: #fff;
+    opacity: 0.9;
+    box-shadow: 10px 10px 5px rgb(29, 29, 29);
+}
+input{
+    width: 150px;
+    color: #8B8BA1;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 1px #C0BCB5 dashed;
+    border-radius: 35px;
+    padding: 10px;
+    transition: 0.5s;
+    outline: none;
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+
+form p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000032;
+}
+
+input:hover{
+    transition: 0.5s;
+    border: solid 1px #465C69;
+}
+
+input:active{
+    filter: brightness(95%);
+    transition: 0s;
+}
+
+p{
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+
+
